@@ -14,11 +14,11 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div>
       <h1>Job Application Tracker</h1>
       <ApplicationForm onSaved={refresh} />
       <ApplicationTable data={apps} onRefresh={refresh} />
-    </>
+    </div>
   );
 }
 export default App;
