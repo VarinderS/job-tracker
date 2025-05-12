@@ -1,0 +1,64 @@
+#############################################
+#  Build artefacts
+#############################################
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+#############################################
+#  IDE + tooling folders
+#############################################
+.vs/                       # Visual Studio workspace data
+.idea/                     # JetBrains Rider / IntelliJ
+_ReSharper*/               # ReSharper cache
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+#############################################
+#  NuGet
+#############################################
+packages/
+*.nupkg
+*.snupkg
+nuget.exe
+
+#############################################
+#  Entity Framework Core
+#############################################
+Migrations/*Designer.cs
+Migrations/*Snapshot.cs
+
+#############################################
+#  Secrets, certs, config overrides
+#############################################
+*.pfx                       # dev-certs
+*.key
+*.pem
+*.env.local
+secrets.json
+
+#############################################
+#  Logs & dumps
+#############################################
+*.log
+*.dmp
+CrashReports/
+
+#############################################
+#  OS-specific cruft
+#############################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+#############################################
+#  Editor / build backups
+#############################################
+*~
+*.swp
+*.tmp
