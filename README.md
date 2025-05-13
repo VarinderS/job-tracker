@@ -23,8 +23,6 @@ Two small projects that work together:
 
 ---
 
----
-
 ## Prerequisites
 
 - **.NET 8 SDK** – <https://dotnet.microsoft.com/download>
