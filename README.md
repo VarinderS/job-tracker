@@ -19,7 +19,7 @@ Two small projects that work together:
 
 ### Walk-through video
 
-<video src="demo/demo.mp4" controls width="700"></video>
+[▶️ Watch the demo (MP4)](demo/video-demo.mp4)
 
 ---
 
